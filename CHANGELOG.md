@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## @electrovir/nyc 15.1.0 (2022-12-01)
+
+Modified by electrovir. NYC now passes all configs to reporters. 
+
 ## [15.1.0](https://github.com/istanbuljs/nyc/compare/v15.0.1...v15.1.0) (2020-06-01)
 
 

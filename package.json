@@ -1,5 +1,5 @@
 {
-  "name": "nyc",
+  "name": "@electrovir/nyc",
   "version": "15.1.0",
   "description": "the Istanbul command line interface",
   "main": "index.js",
@@ -13,6 +13,9 @@
     "instrument": "node ./build-self-coverage.js",
     "report": "node ./bin/nyc report --temp-dir ./.self_coverage/ -r text -r lcov",
     "release": "standard-version"
+  },
+  "publishConfig": {
+      "access": "public"
   },
   "bin": {
     "nyc": "./bin/nyc.js"
