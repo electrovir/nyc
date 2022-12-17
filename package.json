@@ -1,6 +1,6 @@
 {
   "name": "@electrovir/nyc",
-  "version": "15.1.0",
+  "version": "15.1.0-fix0",
   "description": "the Istanbul command line interface",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,8 @@
       "access": "public"
   },
   "bin": {
-    "nyc": "./bin/nyc.js"
+    "nyc": "./bin/nyc.js",
+    "electrovir-nyc": "./bin/nyc.js"
   },
   "files": [
     "index.js",

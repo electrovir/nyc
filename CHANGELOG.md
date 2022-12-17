@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## @electrovir/nyc 15.1.0-fix0 (2022-12-17)
+
+Modified by electrovir. Added `electrovir-nyc` bin in case `nyc` is also installed and this package needs to be explicitly run instead of the base nyc package. 
+
 ## @electrovir/nyc 15.1.0 (2022-12-01)
 
 Modified by electrovir. NYC now passes all configs to reporters. 
